@@ -1,0 +1,912 @@
+Script started on 2022-11-28 22:10:53-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="230" LINES="43"]
+]0;mly23@pascal: ~/bomb222[01;32mmly23@pascal[00m:[01;34m~/bomb222[00m$ gdb bomb
+[35;1m[35;1mGNU gdb [m[35;1m(Ubuntu 9.2-0ubuntu1~20.04.1) [m[35;1m9.2[m[35;1m
+[m[mCopyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mbomb[m...
+(gdb) b explode_bomb
+Breakpoint 1 at [34m0x1e4a[m
+(gdb) r mysolutions.txt
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+0
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+0
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+1
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+2
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+3
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+4
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+5
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+6
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+7
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+8
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+9
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+10
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+11
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+12
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+13
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+14
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+15
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+16
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+17
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+18
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+19
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+20
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+21
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+22
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+23
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+24
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+25
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+26
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+27
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+28
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+29
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+30
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+31
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+32
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+33
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+34
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+35
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+36
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+37
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+38
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+39
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+40
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+41
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+42
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+43
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+44
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+45
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+46
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+47
+Congratulations! You've defused the bomb!
+Your instructor has been notified and will verify your solution.
+[Inferior 1 (process 2191079) exited normally]
+(gdb) r mysolutions.txt
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+y
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) 48
+Undefined command: "48".  Try "help".
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+49
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) r mysolutions.txt
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /common/home/mly23/bomb222/bomb mysolutions.txt
+Welcome to my fiendish little bomb. You have 9 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+That's number 2.  Keep going!
+One step closer.
+So you got that one.  Try this one.
+Good work!  On to the next...
+Impressive, but how about this?
+Good, but you're not done yet.
+One more!
+50
+
+Breakpoint 1, [34m0x56556e4a[m in [33mexplode_bomb[m ()
+(gdb) tui disable[K[K[K[K[K[K[K[K[K[K[Kquit
+A debugging session is active.
+
+	Inferior 1 [process 2191088] will be killed.
+
+Quit anyway? (y or n) y
+]0;mly23@pascal: ~/bomb222[01;32mmly23@pascal[00m:[01;34m~/bomb222[00m$ exit
+
+Script done on 2022-11-28 22:12:06-05:00 [COMMAND_EXIT_CODE="0"]
